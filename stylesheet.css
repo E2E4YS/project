@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+   }
+   *, *:before, *:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+   }
+   :focus, :active{outline: none;}
+   a:focus, a:active{outline: none;}
+   
+   nav,footer,header,aside{display: block;}
+   
+   html, body{
+    height: 100%;
+    width: 100%;
+    font-style: 100%;
+    line-height: 1;
+    font-style: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+   }
+   
+   input, button, textarea{font-family: inherit;}
+   
+   input::-ms-clear{display:none;}
+   button{cursor: pointer;}
+   button::-moz-focus-inner{padding: 0;border: 0;}
+   a, a:visited{text-decoration: none;}
+   a:hover{text-decoration: none;}
+   ul li{list-style-type: none;}
+   img{vertical-align: top;}
+   
+   h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
+   
+   body {
+    padding: 0px 0px 30px 0px;
+   }
+   .container {
+    display: flex;
+    background: url('macbook.jpeg') 0 0/cover no-repeat;
+    padding: 290px 0px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+
+}
+
+.logo {
+/* Style for "logo" */
+width: 31px;
+height: 25px;
+margin-left: 98px;
+}
+
+.navbar_right a {
+    /* Style for "home" */
+width: 616px;
+height: 9px;
+color: #191919;
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 500;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: left;
+text-transform: uppercase;
+margin-right: 30px;
+}
+.navbar_right a:first-child {
+    color: #10c9c3;
+font-style: normal;
+letter-spacing: 1.2px;
+line-height: normal;
+}
+
+.navbar_right a:nth-child(2) {
+    font-style: normal;
+letter-spacing: 1.2px;
+line-height: normal;
+}
+
+.con_text{
+    /* Style for "We Design" */
+color: #1d1d1d;
+font-family: Montserrat;
+font-size: 38px;
+font-weight: 500;
+font-style: normal;
+letter-spacing: normal;
+line-height: 48px;
+text-align: left;
+justify-content: end;
+margin-right: 40px;
+display: block;
+margin-right: 148px;
+margin-left: 900px;
+
+}
+
+.con_text h1 {
+/* Style for "We Design" */
+color: #1d1d1d;
+font-family: Montserrat;
+font-size: 38px;
+font-weight: 500;
+font-style: normal;
+letter-spacing: normal;
+line-height: 48px;
+text-align: left;
+margin-bottom: 32px;
+}
+
+.con_text p {
+    /* Style for "We are a n" */
+color: #787878;
+font-family: "Nunito Sans";
+font-size: 18px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 28px;
+text-align: left;
+margin-bottom: 39px;
+/* Text style for "We are a n" */
+}
+.button {
+    /* Style for "bg" */
+    padding: 20px 30px;
+background-color: #10c9c3;
+/* Style for "contact us" */
+color: #ffffff;
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 500;
+font-style: normal;
+letter-spacing: normal;
+line-height: 84px;
+text-align: left;
+text-transform: uppercase;
+/* Text style for "contact us" */
+font-style: normal;
+letter-spacing: 1.2px;
+line-height: normal;
+
+}
+
+.about{
+    text-align: center;
+    padding: 0px 373px;
+}
+.about h2 {
+    /* Style for "About Us" */
+color: #191919;
+font-family: Montserrat;
+font-size: 30px;
+font-weight: 500;
+font-style: normal;
+letter-spacing: normal;
+line-height: 60px;
+text-align: center;
+margin-bottom: 41px;
+}
+.about h2:first-letter {
+    /* Text style for "A, bout Us" */
+font-style: normal;
+letter-spacing: 0.3px;
+line-height: normal;
+}
+
+.about p {
+    /* Style for "Divide hav" */
+color: #787878;
+font-family: "Nunito Sans";
+font-size: 16px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: center;
+margin-bottom: 37px;
+}
+.about img {
+    margin-bottom: 100px;
+}
+
+.text-img-container {
+    display: flex;
+    background-color: #f8f9f9;
+}
+.text {
+    width: 50%;
+    float: left;
+}
+
+.text h2 {
+    margin: 164px 250px 39px 100px;
+    color: #171717;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 84px;
+    text-align: left;
+
+}
+.text h2::first-letter {
+    font-style: normal;
+    letter-spacing: 0.3px;
+    line-height: normal;
+}
+
+.text p {
+    margin-left: 98px;
+    margin-bottom: 9px;
+    color: #000000;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.text svg {
+    margin-left: 98px;
+    margin-bottom: 41px;
+}
+.imgpage {
+    width: 50%;
+    float: right;
+}
+
+.work_container {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    background-color: #10c9c3;
+    height: 240px;
+    width: auto;
+    justify-content: space-around;
+}
+
+.img-text-container {
+    display: flex;
+    align-items: center;
+}
+
+.text-container {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
